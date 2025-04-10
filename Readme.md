@@ -71,9 +71,9 @@ function isJsonString(str) {
 ## Event Handler or Script
 1. Drag the "PageVariables" to the event handler or script
 2. Complete the input parameters
-   1. Action - default is "read"
-      1. write
-      2. read
+   1. Action (default is "read")
+      1. read
+      2. write
       3. remove
       4. readall
    2. Name: The name of the variable you wish to read, write or remove
