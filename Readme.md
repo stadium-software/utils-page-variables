@@ -2,7 +2,7 @@
 
 Sometimes it is necessary to temporarily store values on a page. This can be achieved by setting the *Text* property of a hidden *Label* control or by using this script. 
 
-The values are stored in an attribute on the page. Browsers implement different limits regarding the possible amount of data that can be stored in this way. Do not use this method for storing large amounts of data. When users navigate away from the page, all variables and their values are lost. 
+This script stores values in attributes on the page. Browsers implement different limits regarding the possible amount of data that can be stored in this way. Do not use this method for storing large amounts of data. When users navigate away from the page, all variables and their values are lost. 
 
 # Version
 Initial 1.0
