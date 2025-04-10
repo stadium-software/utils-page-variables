@@ -4,6 +4,8 @@ Sometimes it is necessary to temporarily store values on a page. This can be ach
 
 This script stores values in attributes on the page. Browsers implement different limits regarding the possible amount of data that can be stored in this way. Do not use this method for storing large amounts of data. When users navigate away from the page, all variables and their values are lost. 
 
+![](images/view.gif)
+
 # Version
 Initial 1.0
 
@@ -75,7 +77,7 @@ function isJsonString(str) {
       1. read
       2. write
       3. remove
-      4. readall
+      4. readall (returns a list of objects)
    2. Name: The name of the variable you wish to read, write or remove
    3. Value: The value you wish to write. 
 
