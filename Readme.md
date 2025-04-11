@@ -4,6 +4,10 @@ Sometimes it is necessary to temporarily store values on a page. This can be ach
 
 This script stores values in attributes on the page. Browsers implement different limits regarding the possible amount of data that can be stored in this way. Do not use this method for storing large amounts of data. When users navigate away from the page, all variables and their values are lost. 
 
+To store values across pages, you can use the [DOM Variables](https://github.com/stadium-software/utils-dom-variables) module. 
+
+To store values across multiple tabs in a session, you can use the Stadium Session Variables in the Application Explorer. 
+
 ![](images/view.gif)
 
 # Version
@@ -43,7 +47,7 @@ function readVariable(n) {
     return el.getAttribute(n);
 }
 function deleteVariable(n) {
-    el.setAttribute(n, null);
+    el.removeAttribute(n);
 }
 function readAllVariables() {
     let retArr = [];
